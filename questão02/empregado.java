@@ -1,11 +1,11 @@
 package questão02;
 
-public class empregado {
+public class Empregado {
     String nome;
     String sobrenome;
     double salarioMensal;
 
-    public empregado(String nome, String sobrenome, double salarioMensal) {
+    public Empregado(String nome, String sobrenome, double salarioMensal) {
         this.nome = nome;
         this.sobrenome = sobrenome;
         this.salarioMensal = salarioMensal;
