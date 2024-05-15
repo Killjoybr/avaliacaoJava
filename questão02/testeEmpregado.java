@@ -11,7 +11,7 @@ public class testeEmpregado {
         empregado1.aumentarSalario(10);
         empregado2.aumentarSalario(10);
 
-        System.out.println(empregado1.getNome() + " apos o aumento recebe: R$" + empregado1.getSalarioMensal());
-        System.out.println(empregado2.getNome() + " apos o aumento recebe: R$" + empregado2.getSalarioMensal());
+        System.out.println(empregado1.getNome() + " apos o aumento de 10% recebe: R$" + empregado1.getSalarioMensal());
+        System.out.println(empregado2.getNome() + " apos o aumento de 10% recebe: R$" + empregado2.getSalarioMensal());
     }
 }
