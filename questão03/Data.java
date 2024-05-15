@@ -12,7 +12,7 @@ public class Data {
     }
 
     public void displayData() {
-        String data = String.format("%d/%d/%d", dia, mes, ano);
+        String data = String.format("%02d/%02d/%d", dia, mes, ano);
         System.out.println(data);
     }
 
