@@ -11,9 +11,9 @@ public class Data {
         this.ano = ano;
     }
 
-    public void displayData() {
+    public String displayData() {
         String data = String.format("%02d/%02d/%d", dia, mes, ano);
-        System.out.println(data);
+        return data;
     }
 
     public int getDia() {
