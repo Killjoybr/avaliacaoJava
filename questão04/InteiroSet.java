@@ -37,7 +37,7 @@ public class InteiroSet {
     public String toSetString(){
         String conjuntoString = "";
         for (int i = 0; i < conjunto.length; i++) {
-            conjuntoString += (conjunto[i]) ? i + " " : "-"; // Utilizando operador ternario para verificar se pertence ao conjunto ou nao e assimilar espaco ou "-" a string
+            conjuntoString += (conjunto[i]) ? i + " " : "- "; // Utilizando operador ternario para verificar se pertence ao conjunto ou nao e assimilar espaco ou "-" a string
         }
         return conjuntoString;
     }
